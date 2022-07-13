@@ -9,7 +9,7 @@ import useCategories from 'hooks/useCategories';
 import {
   TRANSACTION_TYPE_EXPENSE,
   TRANSACTION_TYPE_REVENUE,
-} from '../../types/transaction';
+} from 'types/transaction';
 
 const Filters: React.FC = () => {
   const {

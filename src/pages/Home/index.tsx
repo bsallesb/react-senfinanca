@@ -14,7 +14,7 @@ import Summary from 'components/Summary';
 import TransactionsTable from 'components/TransactionsTable';
 import UpdateTransactionModal from 'components/UpdateTransactionModal';
 
-import { TransactionType } from '../../types/transaction';
+import { TransactionType } from 'types/transaction';
 
 const Home: React.FC = () => {
   const [showCreateTransactionModal, setShowCreateTransactionModal] =

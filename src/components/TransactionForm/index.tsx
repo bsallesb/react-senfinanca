@@ -14,8 +14,8 @@ import {
   TransactionType,
   TRANSACTION_TYPE_EXPENSE,
   TRANSACTION_TYPE_REVENUE,
-} from '../../types/transaction';
-import { TransactionFormDataType } from '../../types/transactionFormData';
+} from 'types/transaction';
+import { TransactionFormDataType } from 'types/transactionFormData';
 
 interface ITransactionFormProps {
   transaction?: TransactionType;

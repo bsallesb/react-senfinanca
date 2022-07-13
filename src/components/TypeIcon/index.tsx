@@ -2,7 +2,7 @@ import { memo } from 'react';
 
 import { BsBoxArrowInDown, BsBoxArrowUp } from 'react-icons/bs';
 
-import { TRANSACTION_TYPE_REVENUE } from '../../types/transaction';
+import { TRANSACTION_TYPE_REVENUE } from 'types/transaction';
 
 interface ITypeIconProps {
   type: 'revenue' | 'expense';

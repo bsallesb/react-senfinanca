@@ -14,7 +14,7 @@ import {
   TransactionType,
   TRANSACTION_TYPE_EXPENSE,
   TRANSACTION_TYPE_REVENUE,
-} from '../../types/transaction';
+} from 'types/transaction';
 
 interface IContextProps {
   transactions: TransactionType[];

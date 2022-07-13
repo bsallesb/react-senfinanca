@@ -1,11 +1,10 @@
 import { useMemo } from 'react';
 
 import { CategoryType } from 'types/category';
-
 import {
   TRANSACTION_TYPE_EXPENSE,
   TRANSACTION_TYPE_REVENUE,
-} from '../types/transaction';
+} from 'types/transaction';
 
 type UseCategoriesType = () => {
   categories: CategoryType[];

@@ -18,6 +18,7 @@ export default defineConfig({
       Routes: path.resolve(__dirname, './src/Routes'),
       services: path.resolve(__dirname, './src/services'),
       styles: path.resolve(__dirname, './src/styles'),
+      types: path.resolve(__dirname, './src/types'),
     },
   },
   plugins: [react()],

@@ -4,7 +4,7 @@ import { Modal } from 'react-bootstrap';
 
 import TransactionForm from 'components/TransactionForm';
 
-import { TransactionType } from '../../types/transaction';
+import { TransactionType } from 'types/transaction';
 
 interface IUpdateTransactionModalProps {
   title: string;
