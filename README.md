@@ -1,23 +1,40 @@
-# Vite + React + Typescript + Eslint + Prettier + EditorConfig
+# React SenFinança
 
-A starter for React with Typescript with the fast Vite and all static code testing with Eslint and formatting with Prettier and EditorConfig.
+Sistema de gestão financeira.
 
-## Installation & run
+Demonstração: [https://bsallesb-react-senfinanca.netlify.app/](https://bsallesb-react-senfinanca.netlify.app)
 
-1. Install `Eslint` extension for VS Code.
+## Tecnologias
 
-2. Clone the repo and run:
+- [ReactJS](https://reactjs.org) (Typescript)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- [React Hook Form](https://react-hook-form.com/) 
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Styled Components](https://styled-components.com/)
+- [UUID](https://github.com/uuidjs/uuid)
+- [Vite](https://vitejs.dev/)
 
+## Instalação
+
+Pré-requisitos:
+
+-   [NodeJS](https://nodejs.org/)
+-   [Yarn](https://yarnpkg.com/) (opcional)
+
+Após clonar o projeto e instalar os pré-requisitos, execute a partir da pasta raiz:
+```
+npm install
+```
+ou
 ```
 yarn
 ```
 
-3. Then:
-
+Após a instalação, para rodar o projeto, execute:
+```
+npm run dev
+```
+ou
 ```
 yarn dev
 ```
-
-## Credits
-
-This is a fork of [https://github.com/TheSwordBreaker/vite-reactts-eslint-prettier](https://github.com/TheSwordBreaker/vite-reactts-eslint-prettier)
