@@ -6,7 +6,7 @@ import {
   useState,
 } from 'react';
 
-import { v4 as generateUuidV4 } from 'uuid'; // yarn add uuid Universal Unique Identifier ()
+import { v4 as generateUuidV4 } from 'uuid';
 
 import useStoredState from 'hooks/useStoredState';
 
